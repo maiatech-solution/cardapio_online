@@ -1,0 +1,210 @@
+/* ------ Responsividade -------- */
+
+/* 768 */
+@media (max-width: 768px) {
+    /* ajustar imagem principal */
+    .img-principal{
+        width: 95%;
+    }
+    /* ajustar menu principal */
+    .menu-principal{
+        width: 95%;
+    }
+    .menu-principal #empresa{
+        margin-left: -78px;    
+    }
+    
+    /* ajustar menu secundário */
+    .menu-secundario{
+        width: 95%;
+    }
+    /* ajustar menu de pedidos */
+    .menu-pedidos{
+        width: 95%;
+        height: auto;
+    }
+    .texto-menu {
+        width: 45%;
+    }
+    .menu-pedidos .itens .pedidos-description1 p, .menu-pedidos .itens .pedidos-description2 p{
+        width: 80%;
+    }
+    /* ajustar botão do topo */
+    .btn-topo { 
+        right: 4%;    
+        bottom: 4%;
+    }
+    .btn-topo img{
+        width: 30px;
+        height: 20px;
+    }
+     /*Imagem*/
+
+     .box {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+    }
+    .box img {
+        width: 80%;
+        height: 60%;
+        top: 20%;
+        left: 5%;
+    }
+
+    #close {
+        right: 12%;
+        top: 26%;
+    }
+    
+
+}
+
+/* 425 */
+@media (max-width: 425px) {
+    .img-principal{
+        width: 100%;
+    }
+    .img-principal #cabecalho-img {
+        border-radius: 0px;
+    }
+    .menu-principal{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .menu-principal #empresa {
+        margin-left: 3px;
+        width: 50%;
+    }
+    .menu-principal #logo{
+        display: none;
+    }
+    .menu-secundario{
+        width: 100%;
+        gap: 30px;
+        border-radius: 0px;
+    }
+    .menu-pedidos{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .menu-pedidos .itens{
+        justify-content: space-between;
+
+    }
+    .texto-menu {
+        width: 55%;
+    }
+    .btn-topo {
+        right: 4%;    
+        bottom: 4%;
+    }
+    .btn-topo img{
+        width: 30px;
+        height: 20px;
+    }
+    .desc {
+        height: 400px;
+        top: 13%;
+    }
+    .desc p {
+        height: 73%;
+        padding: 60px 20px;
+    }
+}
+
+/* 375 */
+@media (max-width: 375px) {
+    .btn-topo {
+        width: 35px;
+        height: 35px;
+    }
+    .btn-topo img{
+        width: 30px;
+        height: 20px;
+    }
+    .menu-principal #empresa {
+        width: 45%;
+        margin-left: -8%;
+    }
+    .menu-pedidos {
+        height: 200px;
+    }
+    .menu-pedidos .itens {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        height: 125px;
+    }
+    .menu-pedidos .itens .pedidos-imagem {
+        justify-content: center;
+        margin: auto;
+    }
+    .menu-pedidos .itens .pedidos-description1, .menu-pedidos .itens .pedidos-description2 {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .menu-pedidos .itens .pedidos-description1 p, .menu-pedidos .itens .pedidos-description2 p {
+        width: 100%;
+    }
+    .menu-pedidos .itens .pedidos-imagem {
+        justify-content: center; 
+    }
+      /*Imagem modal*/
+    .box img {
+        width: 80%;
+        height: 45%;
+        left: 5%;
+    }
+    #close {
+        right: 15%;
+        top: 24%;
+    }
+    #close1 {
+        right: 14px;
+        top: 2.5%;
+    }
+  
+}
+
+/* 320 */
+@media (max-width: 320px) {
+    .menu-principal{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .menu-principal .icones {
+        gap: 6px;
+        justify-content: center;
+        margin-bottom: 3px;
+    }
+    .menu-principal .icones img{
+        width: 20px;
+        height: 20px;
+    }
+    .menu-principal #empresa  {
+      margin-left: 10px;
+    }
+    .menu-secundario a {
+        width: 49px;
+        font-size: 15px;
+    }
+  
+    /*modal*/
+    .desc {
+        height: 70%;
+        top: 15%;
+    }
+    .desc p {
+        padding: 53px 12px;
+    }
+
+    #close {
+        right: 13%;
+        top: 23%;
+    }  
+  
+}
